@@ -17,7 +17,7 @@ class Warzywo
     string nazwa;
     double cena_za_kg;
     int kolor_warzywa;
-    inline static unsigned liczba_warzyw;
+    inline static unsigned liczba_warzyw=0;
 
 public:
     

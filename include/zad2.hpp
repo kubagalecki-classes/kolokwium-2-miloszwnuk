@@ -13,12 +13,9 @@ using namespace std;
 class Ogorek
 {
 
-
 public:
     Ogorek() {}
     virtual string chrup() {}
-
-
 };
 
 class Zielony : public Ogorek
