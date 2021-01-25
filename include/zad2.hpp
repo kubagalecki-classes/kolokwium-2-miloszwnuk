@@ -39,12 +39,12 @@ public:
 
 string jedzOgorek(Ogorek*)
 {
-    if (Ogorek*  == Zielony) //
+    if (dynamic_cast<Ogorek*>  == Zielony) //
     {
         cout << "Zielony: " << chrupZielony << endl;
     }
 
-    if (Ogorek * == Kiszony)
+    if (dynamic_cast<Ogorek*> == Kiszony)
     {
         cout << "Kiszony: " << chrupKioszny << endl;
     }
