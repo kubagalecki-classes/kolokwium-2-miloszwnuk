@@ -23,10 +23,10 @@ public:
     
     Warzywo(const string& a, double b, int c) : nazwa{ a }, cena_za_kg{ b },  kolor_warzywa{ c } 
     {
-         liczba_warzyw =  liczba_warzyw + 1;
+         inline liczba_warzyw = liczba_warzyw + 1;
     }
 
-    ~Warzywo() {  liczba_warzyw =  liczba_warzyw - 1; }
+    ~Warzywo() {  inline liczba_warzyw =  liczba_warzyw - 1; }
 
     unsigned getVeg() { return liczba_warzyw; }
 
